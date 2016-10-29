@@ -83,6 +83,10 @@ on init
     chmod 0660 /sys/bus/spi/devices/spi12.0/clk_enable
     chown system system /sys/bus/spi/devices/spi12.0/clk_enable
 
+    # Fingerprint
+    chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
+    chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
+
     # Laser AF
     chown system system /dev/stmvl6180_ranging
     symlink /dev/input/event2 /dev/stm_sensor
