@@ -278,9 +278,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.zram.sh \
-    ueventd.qcom.rc \
-    init.spectrum.rc \
-    init.spectrum.sh
+    ueventd.qcom.rc
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
