@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/oneplus2/device.mk)
 # Inherit some common Invictus stuff.
 $(call inherit-product, vendor/invictus/config/common_full_phone.mk)
 
+#Invictus
+INV_MAINTAINER := MZO
+
 PRODUCT_NAME := inv_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
